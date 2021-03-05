@@ -25,8 +25,12 @@ def find_the_cheese(cheese)# code an argument here
     my_cheese = 
     cheese_types = ["cheddar", "gouda", "camembert"]
     
-    cheese.select do |type| 
-       return my_cheese = type if cheese_types.include?(type)    
+ #   cheese.select do |type| 
+ #      return my_cheese = type if cheese_types.include?(type)
+
+     cheese.each do |type|
+        return my_cheese = type if cheese_types.include?(type)   
+    
     end
     nil
 end

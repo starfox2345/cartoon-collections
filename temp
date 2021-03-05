@@ -1,0 +1,6 @@
+
+def lunch(lunch_stuff)
+    lunch_menu.each do |lunch_item|
+  "#{lunch_item}!"
+    end
+end
